@@ -6,7 +6,7 @@ def main() -> None:
         while True:
             content = input("Enter new line of content: ")
             if content == "stop":
-               break
+                break
             file.write(content + "\n")
 
 
